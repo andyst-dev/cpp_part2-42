@@ -1,28 +1,28 @@
 # cpp_part2
 
 A repository gathering the second five 42 C++ modules, from `cpp05` to `cpp09`.
-This project consists of working through the more advanced part of the C++98 modules, with each module introducing a new set of concepts such as exceptions, casts, templates, STL containers, iterators, and algorithms.
+`cpp_part2` brings together the second part of the 42 C++ curriculum, focused on the more advanced side of C++98 and standard library usage.
 
-`cpp_part2` was designed to continue the C++ learning path with more abstract tools and more standard-library-heavy exercises, moving from object-oriented structure toward generic programming and container-based problem solving.
+It was a good way to build solid foundations in exceptions, templates, STL containers and more practical problem solving through progressive exercises.
 
 ## Features
 - Covers the second five 42 C++ modules: `cpp05` to `cpp09`
 - Multiple standalone exercises with dedicated Makefiles
-- Progressive introduction to exceptions, casts, templates, and STL usage
-- Focus on class design, generic code, containers, and algorithmic problem solving
+- Progressive introduction to exceptions, casts, templates and STL usage
+- Focus on class design, generic code, containers and algorithmic problem solving
 
 ## Project structure
-- `cpp05/` — exceptions, bureaucrats, forms, and execution workflows
-- `cpp06/` — scalar conversion, serialization, and runtime type identification
-- `cpp07/` — function templates, iteration templates, and templated arrays
-- `cpp08/` — STL containers, iterators, and algorithm-based exercises
-- `cpp09/` — container-driven practical programs using maps, stacks, vectors, and sequence processing
+- `cpp05/` — exceptions, bureaucrats, forms and execution workflows
+- `cpp06/` — scalar conversion, serialization and runtime type identification
+- `cpp07/` — function templates, iteration templates and templated arrays
+- `cpp08/` — STL containers, iterators and algorithm-based exercises
+- `cpp09/` — container-driven practical programs using maps, stacks, vectors and sequence processing
 
 ## Module overview
 
 ### cpp05
 This module focuses on exceptions and class interactions built around bureaucrats and forms.
-It introduces grade validation, error handling, and execution rules between related classes.
+It introduces grade validation, error handling and execution rules between related classes.
 
 Included exercises:
 - `ex00` — `bureaucrat`: grade-bounded bureaucrat class with custom exceptions
@@ -39,10 +39,10 @@ Main topics:
 
 ### cpp06
 This module focuses on C++ casts and runtime type handling.
-It introduces explicit conversions, serialization through integer representation, and dynamic type identification.
+It introduces explicit conversions, serialization through integer representation and dynamic type identification.
 
 Included exercises:
-- `ex00` — `convert`: scalar literal conversion to `char`, `int`, `float`, and `double`
+- `ex00` — `convert`: scalar literal conversion to `char`, `int`, `float` and `double`
 - `ex01` — `serialize`: pointer serialization and deserialization with `uintptr_t`
 - `ex02` — `identify`: runtime identification of derived types from a base class
 
@@ -58,7 +58,7 @@ This module introduces templates through generic functions and classes.
 It focuses on reusable code that works across different types without rewriting the same logic.
 
 Included exercises:
-- `ex00` — `templates`: generic `swap`, `min`, and `max`
+- `ex00` — `templates`: generic `swap`, `min` and `max`
 - `ex01` — `iter`: function template applied to each element of an array
 - `ex02` — `array`: templated dynamic array class
 
@@ -70,7 +70,7 @@ Main topics:
 - template implementation in headers / `.tpp`
 
 ### cpp08
-This module focuses on STL containers, iterators, and algorithms.
+This module focuses on STL containers, iterators and algorithms.
 It is the point where using the standard library becomes part of the expected solution itself.
 
 Included exercises:
@@ -87,7 +87,7 @@ Main topics:
 
 ### cpp09
 This module focuses on practical STL-based programs.
-It uses standard containers to solve small real problems around parsing, evaluation, and performance comparison.
+It uses standard containers to solve small real problems around parsing, evaluation and performance comparison.
 
 Included exercises:
 - `ex00` — `btc`: bitcoin exchange value lookup from a CSV database
@@ -116,7 +116,7 @@ cd cpp09/ex01 && make && ./RPN "8 9 * 9 - 9 - 9 - 4 - 1 +"
 ```
 
 ## Learning outcomes
-This repository continues the C++98 learning path with more advanced language features and standard library usage.
+This repository was my first real base in the more advanced side of C++98.
 It helped build solid foundations in:
 - exception handling
 - abstract class design
